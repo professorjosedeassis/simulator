@@ -1,0 +1,57 @@
+/**
+    Folha de estilo do APP Simulador
+    @author Professor José de Assis
+*/
+
+/* cabeçalho */
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+header h1 {
+    color: #cc470d;
+    text-align: center;
+}
+
+/* menu */
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e15a1f;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #cc470d;
+}
+
+/* rodapé */
+footer {
+    width: 100%;
+    background-color: #cc470d;
+    color: #fff;
+    padding: 5px 0px;
+    font-size: .9em;
+    text-align: center;
+}
