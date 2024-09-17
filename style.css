@@ -46,12 +46,33 @@ nav ul li a:hover {
     background-color: #cc470d;
 }
 
+/* Container */
+.container {
+    margin: 50px 10px;
+    text-align: center;
+}
+
+#sw1 {
+    float: left;
+}
+
+#sw2 {
+    float: right;    
+}
+
 /* rodapé */
 footer {
     width: 100%;
-    background-color: #cc470d;
+    background-color: #e15a1f;
     color: #fff;
     padding: 5px 0px;
     font-size: .9em;
     text-align: center;
+}
+
+/* Layout responsivo telas com resolução superior a 576px */
+@media (min-width: 576px) {
+    #sw1,#sw2 {
+        float: none;
+    }
 }
